@@ -1,0 +1,84 @@
+input {
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-size: $text-size-16;
+  outline: none;
+  border: none;
+
+  &.warning {
+    border: 2px solid var(--warning-color);
+  }
+}
+
+.simple-input-360 {
+  width: 360px;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  border-radius: 4px;
+  padding: 15px 14px;
+  background: transparent;
+
+  &::placeholder {
+    color: var(--white-color);
+  }
+}
+
+.simple-input-h55 {
+  padding: 15px;
+  background: white;
+  box-shadow: 0 0 6px var(--shadow-color);
+  border-radius: 4px;
+  color: var(--black-color);
+
+  &::placeholder {
+    color: var(--grey-4-color);
+  }
+}
+
+.simple-input-h30 {
+  background: white;
+  border-radius: 4px;
+  color: var(--white-color);
+  background: var(--black-color);
+  font-size: $text-size-14;
+  padding: 7px 16px;
+  width: 670px;
+}
+
+.input-adaptable-width {
+  padding: 3px 14px;
+  background: var(--black-color);
+  color: var(--white-color);
+  font-size: $text-size-16;
+  width: fit-content;
+}
+
+.search-bar {
+  color: var(--white-color);
+  background: var(--black-color);
+  padding: 8px 39px;
+  border-radius: 26px;
+  width: 100%;
+
+  &::placeholder {
+    color: var(--white-color);
+  }
+
+  img {
+    filter: var(--svg-filter-white-color)
+  }
+}
+
+.width-expand-input {
+  color: var(--white-color);
+  padding: 3px 14px;
+  border-radius: 24px;
+  width: 43.5px;
+
+  img {
+    filter: var(--svg-filter-white-color)
+  }
+
+  &:focus {
+    width: 230px;
+  }
+}

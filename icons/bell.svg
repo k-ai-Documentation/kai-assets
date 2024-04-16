@@ -1,0 +1,8 @@
+<svg id="bell" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Tracé_52" data-name="Tracé 52" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="Groupe_9" data-name="Groupe 9">
+    <path id="Tracé_49" data-name="Tracé 49" d="M9.708,18.344v.365a2.292,2.292,0,0,0,4.584,0v-.365" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path id="Tracé_50" data-name="Tracé 50" d="M13.833,5.751V4.833a1.833,1.833,0,0,0-3.666,0v.918" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path id="Tracé_51" data-name="Tracé 51" d="M6.563,10.188A4.53,4.53,0,0,1,11.1,5.657h1.812a4.53,4.53,0,0,1,4.531,4.532v2.8a2,2,0,0,0,.586,1.414l.641.641a2,2,0,0,1,.586,1.414,1.89,1.89,0,0,1-1.89,1.89H6.64a1.89,1.89,0,0,1-1.89-1.89,2,2,0,0,1,.586-1.414l.641-.641a2,2,0,0,0,.586-1.414v-2.8Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+  </g>
+</svg>

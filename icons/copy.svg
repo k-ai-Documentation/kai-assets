@@ -1,0 +1,9 @@
+<svg id="copy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Tracé_1821" data-name="Tracé 1821" d="M5,16H4.444A1.445,1.445,0,0,1,3,14.556V4.444A1.445,1.445,0,0,1,4.444,3H14.555A1.445,1.445,0,0,1,16,4.444V5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+  <path id="Tracé_1822" data-name="Tracé 1822" d="M19.556,21H9.444A1.445,1.445,0,0,1,8,19.556V9.444A1.445,1.445,0,0,1,9.444,8H19.555A1.445,1.445,0,0,1,21,9.444V19.555A1.445,1.445,0,0,1,19.556,21Z" fill="none" stroke="#000" stroke-width="1.6"/>
+  <g id="Groupe_141" data-name="Groupe 141" transform="translate(12 12)">
+    <path id="Tracé_1823" data-name="Tracé 1823" d="M14.5,12v5" transform="translate(-12 -12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path id="Tracé_1824" data-name="Tracé 1824" d="M17,14.5H12" transform="translate(-12 -12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+  </g>
+  <path id="Tracé_1825" data-name="Tracé 1825" d="M0,0H24V24H0Z" fill="none"/>
+</svg>

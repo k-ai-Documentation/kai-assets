@@ -1,0 +1,136 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+//FONT SIZE
+$text-size-38: 38px;
+$text-size-32: 32px;
+$text-size-30: 30px;
+$text-size-28: 28px;
+$text-size-24: 24px;
+$text-size-20: 20px;
+$text-size-18: 18px;
+$text-size-16: 16px;
+$text-size-14: 14px;
+$text-size-13: 13px;
+$text-size-12: 12px;
+
+/* semantic color variables for this project */
+:root {
+  //COLOR FROM COMPONENT XD
+  --color-background: #ffffff;
+  --background-hover-color: #1C1F26;
+  --primary-color: #6360FF;
+  --white-color: #FFFFFF;
+  --light-black-color: #211F26;
+  --grey-color: #70778E;
+  --grey-2-color: #E0E0E0;
+  --grey-3-color: #F2F2F2;
+  --grey-4-color: #555B6F;
+  --grey-5-color: #36343B;
+  --color-border: #49454F;
+  --disabled-color: #E2EAEF;
+  --dark-grey-color: #1C1A20;
+  --primary-hover-color: #BEC4FF;
+  --pending-color: #FFAE15;
+  --warning-color: #FF0000;
+  --valid-color: #3CE4C5;
+  --black-color: #000000;
+  --shadow-color: #0F121729;
+
+  --svg-filter-primary-color: invert(27%) sepia(37%) saturate(4536%) hue-rotate(233deg) brightness(129%) contrast(115%);
+  --svg-filter-white-color: invert(100%) sepia(3%) saturate(0%) hue-rotate(322deg) brightness(106%) contrast(100%);
+  --svg-filter-primary-hover-color: invert(91%) sepia(14%) saturate(5659%) hue-rotate(187deg) brightness(100%) contrast(101%);
+  --svg-filter-black-color: invert(0%) sepia(0%) saturate(7500%) hue-rotate(61deg) brightness(93%) contrast(107%);
+  --svg-filter-grey-color: invert(48%) sepia(8%) saturate(914%) hue-rotate(188deg) brightness(94%) contrast(87%);
+  --svg-filter-valid-color: invert(79%) sepia(53%) saturate(528%) hue-rotate(107deg) brightness(91%) contrast(97%);
+  --svg-filter-warning-color: invert(17%) sepia(87%) saturate(7350%) hue-rotate(0deg) brightness(106%) contrast(117%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s,
+  background-color 0.5s;
+  line-height: 1.6;
+  background: var(--black-color);
+}
+
+.icon-18 {
+  height: 18px;
+  width: 18px;
+}
+
+.icon-22 {
+  height: 22px;
+  width: 22px;
+}
+
+.page {
+  padding: 48px 116px;
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sub-head {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
