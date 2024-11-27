@@ -1,9 +1,9 @@
-@import './base.scss';
+@use 'base.scss';
 
-@import './texts.scss';
-@import './cards.scss';
-@import './buttons.scss';
-@import './input.scss';
+@use 'texts.scss';
+@use 'cards.scss';
+@use 'buttons.scss';
+@use 'input.scss';
 
 
 :root {

@@ -1,3 +1,5 @@
+@use "base";
+
 button {
   font-family: 'Roboto Medium', system-ui, sans-serif;
   cursor: pointer;
@@ -14,7 +16,7 @@ button {
   background: white;
   border-radius: 70px;
   border: 2px solid var(--white-clor);
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   font-family: 'Roboto', system-ui, sans-serif;
 
   &:hover {
@@ -32,7 +34,7 @@ button {
   color: var(--black-color);
   border-radius: 5px;
   border: 1px solid var(--black-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   background: transparent ;
 
   &:hover {
@@ -53,7 +55,7 @@ button {
   background: white;
   border-radius: 5px;
   border: 2px solid var(--black-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
 
   &:hover {
     background: var(--black-color);
@@ -71,7 +73,7 @@ button {
   color: var(--primary-color);
   border-radius: 25px;
   border: 2px solid var(--primary-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   background: transparent;
 
   &:hover {
@@ -92,7 +94,7 @@ button {
   color: var(--white-color);
   background: var(--grey-4-color);
   border-radius: 4px;
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
 
   &:hover {
     color: var(--grey-4-color);
@@ -108,7 +110,7 @@ button {
   padding: 7px 11px;
   background: transparent;
   border-radius: 4px;
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
 
   &:hover {
     color: var(--white-color);
@@ -118,7 +120,7 @@ button {
 
 .btn-icon-text {
   color: var(--primary-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   display: flex;
   align-items: center;
   background: transparent;
@@ -139,7 +141,7 @@ button {
 
 .btn-icon {
   color: var(--white-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   background: transparent;
   display: flex;
   align-items: center;
@@ -162,7 +164,7 @@ button {
 .outline-circle-icon {
   color: var(--white-color);
   background: var(--black-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
 
   &:hover {
     background: var(--white-color);

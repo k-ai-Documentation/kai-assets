@@ -1,6 +1,8 @@
+@use "base";
+
 input {
   font-family: 'Roboto', system-ui, sans-serif;
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   outline: none;
   border: none;
 
@@ -39,7 +41,7 @@ input {
   border-radius: 4px;
   color: var(--white-color);
   background: var(--black-color);
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   padding: 7px 16px;
   width: 670px;
 }
@@ -48,7 +50,7 @@ input {
   padding: 3px 14px;
   background: var(--black-color);
   color: var(--white-color);
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   width: fit-content;
 }
 

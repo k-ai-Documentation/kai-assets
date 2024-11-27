@@ -1,3 +1,5 @@
+@use "base";
+
 @font-face {
   font-family: "Roboto Light";
   src: url("./../fonts/Roboto-Light.woff") format("woff"),
@@ -39,82 +41,82 @@
 }
 
 .text-regular-38 {
-  font-size: $text-size-38;
+  font-size: base.$text-size-38;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-regular-32 {
-  font-size: $text-size-32;
+  font-size: base.$text-size-32;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-regular-30 {
-  font-size: $text-size-30;
+  font-size: base.$text-size-30;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-regular-28 {
-  font-size: $text-size-28;
+  font-size: base.$text-size-28;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 
 .text-regular-24 {
-  font-size: $text-size-24;
+  font-size: base.$text-size-24;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-bold-20 {
-  font-size: $text-size-20;
+  font-size: base.$text-size-20;
   font-family: 'Roboto Bold', system-ui, sans-serif;
 }
 
 .text-medium-18 {
-  font-size: $text-size-18;
+  font-size: base.$text-size-18;
   font-family: 'Roboto Medium', system-ui, sans-serif;
 }
 
 .text-regular-18 {
-  font-size: $text-size-18;
+  font-size: base.$text-size-18;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-medium-16 {
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   font-family: 'Roboto Medium', system-ui, sans-serif;
 }
 
 .text-regular-16 {
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-bold-16 {
-  font-size: $text-size-16;
+  font-size: base.$text-size-16;
   font-family: 'Roboto Bold', system-ui, sans-serif;
 }
 
 .text-bold-14 {
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   font-family: 'Roboto Bold', system-ui, sans-serif;
 }
 
 .text-regular-14 {
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   font-family: 'Roboto', system-ui, sans-serif;
 }
 
 .text-medium-14 {
-  font-size: $text-size-14;
+  font-size: base.$text-size-14;
   font-family: 'Roboto Medium', system-ui, sans-serif;
 }
 
 .text-medium-13 {
-  font-size: $text-size-13;
+  font-size: base.$text-size-13;
   font-family: 'Roboto Medium', system-ui, sans-serif;
 }
 
 .text-regular-12 {
-  font-size: $text-size-12;
+  font-size: base.$text-size-12;
   font-family: 'Roboto', system-ui, sans-serif;
 }
